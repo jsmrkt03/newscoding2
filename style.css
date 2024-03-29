@@ -14,6 +14,9 @@
 
 /*-------------照片牆--------------*/
 
+.coverflowJ2{
+    display: none;
+}
 .fJimg{
     width: 100%;
     display: block;
@@ -266,6 +269,15 @@ a{
 
 /*--------手機----------*/
 @media (max-width: 575px) {
+    .coverflowJ{
+        display: none;
+    }
+    .coverflowJ2{
+        display: block;
+    }
+    .fJimg{
+        width: 100%;
+    }
     .lineJ1{
         height: 5px;
         width: 30%;
@@ -277,6 +289,16 @@ a{
     .lineJ2{
         width: 30%;
         height: 5px;
+    }
+    section.secondJ{
+        margin-top: 200%;
+    }
+    .boxJ1{
+        text-align: center;
+    }
+    .boxJ1:nth-child(1)::before{
+        margin-top: -15px;
+        margin-left: -50px;
     }
 }
 
